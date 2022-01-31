@@ -3,12 +3,12 @@ let galleriesJSONArray = [
     name: "adventure",
     photos: [
       {
-        src: "adventure1.jpg",
+        src: "adventure1.JPG",
         title: "The White House",
         caption: "Washington D.C.",
       },
       {
-        src: "adventure2.jpg",
+        src: "adventure2.JPG",
         title: "Vibes",
         caption: "New Hampshire",
       },
