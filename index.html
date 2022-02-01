@@ -6,21 +6,22 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script defer src="galleriesJSON.js"></script>
-    <script defer src="render.js"></script>
-    <script defer src="gallery.js"></script>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles/lock.css" />
+    <script defer src="./scripts/lock.js"></script>
   </head>
   <body>
-    <header>
-      <div class="header-container">
-        <div class="heading-content">
-          <h1>Our Adventure Book</h1>
-          <img class="globe-image" src="images/globe.png" alt="globe image" />
-        </div>
+    <div class="lock-container">
+      <h1>Password:</h1>
+      <div class="search-form">
+        <form>
+          <input
+            class="lock-input"
+            type="text"
+            onkeypress="return validate(event)"
+          />
+          <button class="lock-btn"></button>
+        </form>
       </div>
-    </header>
-    <section class="main-content"></section>
+    </div>
   </body>
 </html>

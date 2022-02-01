@@ -17,7 +17,7 @@ body {
 }
 
 .header-container {
-  font-size: 1.8em;
+  font-size: 2em;
   color: #eee;
   background-color: #6e3f09;
 }
@@ -31,12 +31,20 @@ body {
   padding-bottom: 20px;
 }
 
-.globe-image {
+.heading-image {
   height: 150px;
   width: auto;
+}
+
+.plane-image {
+  margin-right: 40px;
+}
+
+.globe-image {
   margin-left: 40px;
 }
 
+h1 span,
 h1,
 h2 {
   font-family: "Indie Flower", cursive;
@@ -276,4 +284,70 @@ section {
 }
 .lightbox .spinner {
   display: none;
+}
+
+.yellow {
+  color: rgb(255, 255, 93);
+}
+
+.purple {
+  color: rgb(216, 62, 216);
+}
+
+.red {
+  color: rgba(255, 0, 0, 0.801);
+}
+
+.blue {
+  color: rgb(0, 183, 255);
+}
+
+.green {
+  color: rgb(87, 248, 87);
+}
+
+/* The Modal (background) */
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  backdrop-filter: blur(60px);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%;
+  height: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-text {
+  text-align: center;
+  margin-bottom: 15px;
 }
